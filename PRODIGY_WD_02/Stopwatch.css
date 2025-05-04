@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+      margin: 0 auto;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f1faf9;
+      color: #333;
+      justify-content: center;
+      margin-top: 5px;
+      text-align: center;
+}
+
+.stopwatch-display{
+  font-family: sans-serif;
+  color: #4CAF50;
+}
+
+.stopwatch-laps {
+  margin-top: 20px;
+}
+
+#lap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#lap-list li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #4CAF50;
+}
+#display {
+    Font-size: 48px;
+    Font-weight: bold;
+    Margin-bottom: 20px;
+    color: #000;
+  }
+  
+  Button {
+    Width: 100px;
+    Height: 30px;
+    Margin: 10px;
+    Font-size: 16px;
+    Border: none;
+    Border-radius: 5px;
+    Background-color: #4CAF50;
+    color: rgb(253, 220, 220);
+    Cursor: pointer;
+  }
+  
+  Button:hover {
+    Background-color: #495e4b;
+    opacity: 1.9;
+  }
+  
